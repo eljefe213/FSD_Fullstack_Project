@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ton blog personnel">
+    <link rel="stylesheet" href="style.css">
+    <title>GlobeTrekHub</title>
+    <!--font awesome cdn link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    >
+
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <!-- navbar -->  
+        <nav class="navbar">
+            <div class="container flex">
+                <a href="index.html" class="site-brand">Globe<span>TrekHub</span></a>
+                <button id="navbar-toggle" class="navbar-toggle">
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+                <!-- Menu Latéral (caché par défaut) -->
+                <div id="navbar-menu" class="navbar-menu">
+                  <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#blogs" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                  </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar -->
+    </header>
+    <!-- end of header-->
+    <!-- section home -->
+    <section class="home" id="home">
+        <h1>Create lasting memories</h1>
+        <p>
+            Welcome to the blog where each read is a journey, each image an adventure. Explore the world through our articles, be inspired, and share the passion of travel with us.
+        </p>
+    </section>
+    <!-- end of section home -->
+    <!-- section about -->
+    <section class="about" id="about">
+      <h3>Travel Blog GlobeTrekHub</h3>
+      <p>Hello, my name is <strong style="color: #1ec6b6;">Abdel</strong>, and I'm happy to welcome you to my <strong style="color: #1ec6b6;">travel blog</strong>. After visiting <strong style="color: #1ec6b6;">25 countries</strong>, and soon embarking on a journey around the world, each trip is unique — the place, the time, the people encountered, the experience. The goal of this blog is to take you on a journey through <strong style="color: #1ec6b6;">photos</strong> and <strong style="color: #1ec6b6;">articles</strong> and, perhaps, help you discover your next <strong style="color: #1ec6b6;">destination</strong>.</p>
+    </section>
+    <!-- end of section about -->
+    <!-- blog section -->
+      <!-- Ajoutez cette section dans le corps de votre page -->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">Our <span>Blogs</span></h1>
+      <div class="blog-container">
+        <!-- Blog 1 -->
+        <div class="blog">
+          <img src="images/Paris.jpg" alt="Blog 1">
+          <h2 class="title">Paris</h2>
+          <p class="content">The City of Light, known for its iconic landmarks like the Eiffel Tower, charming streets, and world-class art and cuisine.</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <!-- Blog 2 -->
+        <div class="blog">
+          <img src="images/Amsterdam.jpg" alt="Blog 2">
+          <h2 class="title">Amsterdam</h2>
+          <p class="content">A picturesque city of canals and historic architecture, Amsterdam is celebrated for its vibrant cultural scene, cycling culture, and famous museums.</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <!-- Blog 3 -->
+        <div class="blog">
+          <img src="images/Athenes.jpg" alt="Blog 3">
+          <h2 class="title">Athenes</h2>
+          <p class="content">The cradle of Western civilization, Athens is a city rich in ancient history, featuring iconic landmarks like the Acropolis and Parthenon, along with a lively modern atmosphere.</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <!-- Blog 4 -->
+        <div class="blog">
+          <img src="images/Rome.jpg" alt="Blog 4">
+          <h2 class="title">Rome</h2>
+          <p class="content">The Eternal City, Rome is a captivating blend of ancient history and modern life, with iconic structures like the Colosseum, Roman Forum, and Vatican City.</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <!-- Blog 5 -->
+        <div class="blog">
+          <img src="images/Madrid.png" alt="Blog 5">
+          <h2 class="title">Madrid</h2>
+          <p class="content">The lively capital of Spain, Madrid boasts beautiful boulevards, impressive museums, and a vibrant nightlife, making it a dynamic and cultural hub.</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <!-- Blog 6 -->
+        <div class="blog">
+          <img src="images/Amsterdam.jpg" alt="Blog 6">
+          <h2 class="title">Lisbonne</h2>
+          <p class="content">Portugal's charming capital, Lisbon is known for its colorful neighborhoods, historic architecture, and scenic views over the Tagus River, offering a unique blend of tradition and modernity.</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- blogs section ends -->
+    <div id="dataContainer"></div> <!-- Conteneur pour afficher les données -->
+    <!-- contact section -->
+    <section class="contact" id="contact">
+      <h1 class="heading"><span> contact </span> us</h1>
+
+      <div class="row">
+        <form action="https://formspree.io/f/xoqzrgdz" method="POST">
+          <h3>Get in touch</h3>
+          <div class="inputBox">
+            <span><i class="fas fa-user"></i></span>
+            <input type="text" name="name" placeholder="Name" required >
+          </div>
+          <div class="inputBox">
+            <span><i class="fas fa-envelope"></i></span>
+            <input type="email" name="email" placeholder="Email" required >
+          </div>
+          <div class="inputBox">
+            <span><i class="fas fa-comment"></i></span>
+            <input type="text" name="message" placeholder="Message" required >
+          </div>
+          <input type="submit" value="Contact now" class="btn" >
+        </form>        
+      </div>
+    </section>
+    <!-- end of contact section -->
+    <!-- footer section stars -->
+
+    <div class="footer" id="footer">
+        <div class="share">
+          <a
+            href="https://twitter.com/HamazAbdelghani"
+            class="fab fa-twitter"
+          ></a>
+  
+          <a
+            href="https://www.linkedin.com/in/abdelghani-hamaz-2a288b226/"
+            class="fab fa-linkedin"
+          ></a>
+          <a href="https://github.com/eljefe213" class="fab fa-github"></a>
+        </div>
+        <div class="links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#blogs">Blog</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="credit">
+          created by <span>Abdelghani Hamaz</span> | All rights reserved
+        </div>
+      </div>
+  
+      <!-- footer section ends -->
+
+    <script src="./main.js"></script>
+    <script>
+      // Faire une requête pour obtenir les données
+      fetch('/api/data')
+        .then(response => response.json())
+        .then(data => {
+          console.log(data);
+          // Afficher les données sur la page
+          document.getElementById('dataContainer').innerHTML = `
+            <p>${data.message}</p>
+            <ul>
+              ${data.data.map(item => `<li>${item}</li>`).join('')}
+            </ul>
+          `;
+      })
+      .catch(error => console.error('Erreur:', error));
+    </script>
+</body>
+</html>
